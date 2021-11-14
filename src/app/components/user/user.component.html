@@ -1,0 +1,21 @@
+<div class="user">
+  <h2>{{user.id}}: {{user.name}} {{user.username}}</h2>
+  <div class="h3"><b>email:</b> {{user.email}}</div>
+  <div class="h3"><b>address:</b>
+    <div class="h4"><b>street:</b> {{user.address.street}}</div>
+    <div class="h4"><b>suite:</b> {{user.address.suite}}</div>
+    <div class="h4"><b>city:</b> {{user.address.city}}</div>
+    <div class="h4"><b>zipcode:</b> {{user.address.zipcode}}</div>
+    <div class="h4"><b>geo:</b>
+      <div class="h5"><b>lat:</b> {{user.address.geo.lat}}</div>
+      <div class="h5"><b>lng:</b> {{user.address.geo.lng}}</div>
+    </div>
+  </div>
+  <div class="h3"><b>phone:</b> {{user.phone}}</div>
+  <div class="h3"><b>website:</b> {{user.website}}</div>
+  <div class="h3"><b>company:</b>
+    <div class="h4"><b>name:</b> {{user.company.name}}</div>
+    <div class="h4"><b>catchPhrase:</b> {{user.company.catchPhrase}}</div>
+    <div class="h4"><b>bs:</b> {{user.company.bs}}</div>
+  </div>
+</div>

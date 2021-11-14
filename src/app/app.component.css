@@ -1,0 +1,17 @@
+.users {
+  display: flex;
+  flex-wrap: wrap;
+  grid-column-gap: 40px;
+  margin: auto;
+}
+
+.posts {
+  display: flex;
+  flex-wrap: wrap;
+  grid-column-gap: 47px;
+}
+
+div {
+  padding: 20px 40px;
+}
+
