@@ -1,0 +1,24 @@
+.user {
+  border: 5px solid dodgerblue;
+  margin: 20px auto;
+  padding: 20px 40px;
+  width: 440px;
+  font-size: 18px;
+}
+
+.h4 {
+  margin-left: 20px;
+}
+
+.h5 {
+  margin-left: 40px;
+}
+
+.iOfUser {
+  border: 5px solid darkslateblue;
+  display: flex;
+}
+
+.iPosts {
+  width: 800px;
+}

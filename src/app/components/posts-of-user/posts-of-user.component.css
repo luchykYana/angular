@@ -1,0 +1,6 @@
+.postsOfUser {
+  display: flex;
+  flex-wrap: wrap;
+  grid-column-gap: 10px;
+  margin: 20px auto;
+}
